@@ -1,0 +1,6 @@
+.aboutText {
+  margin-block-start: 1rem;
+  max-width: 35ch;
+  margin-inline: auto;
+  line-height: 1.5;
+}

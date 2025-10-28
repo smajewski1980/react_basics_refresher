@@ -6,9 +6,9 @@ const Header = ({ setDisplay, displaying }) => {
   return (
     <>
       <header>
-        <h1 className={styles.heading}>UNICORN RIDES</h1>
+        <h1 className={styles.h1}>UNICORN RIDES</h1>
         <Nav setDisplay={setDisplay} />
-        <h2>{displaying}</h2>
+        <h2 className={styles.h2}>{displaying}</h2>
       </header>
     </>
   );

@@ -4,7 +4,7 @@ import styles from './Nav.module.css';
 const Nav = ({ setDisplay }) => {
   return (
     <nav>
-      <ul>
+      <ul className={styles.ul}>
         <li
           className={styles.navLink}
           onClick={() => {

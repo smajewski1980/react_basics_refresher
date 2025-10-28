@@ -1,3 +1,7 @@
-.unicornPic {
-  max-width: 250px;
+.unicorn1 {
+  max-width: 275px;
+  margin-inline: auto;
+  rotate: 10deg;
+  border-radius: 0% 50% 50% 50%;
+  border-top-left-radius: 10% 35%;
 }

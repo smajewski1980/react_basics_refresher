@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a:visited,
+a:link {
+  color: currentColor;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
