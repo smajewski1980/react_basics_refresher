@@ -1,12 +1,20 @@
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
+import { useState } from 'react';
+import Header from './components/header/Header';
+import MainContent from './components/MainContent/MainContent';
 
 function App() {
+  const [displaying, setDisplaying] = useState('About');
+  function setDisplay(pageToShow) {
+    setDisplaying(pageToShow);
+  }
   return (
     <>
-      <Header />
-      <Nav />
+      <Header
+        displaying={displaying}
+        setDisplay={setDisplay}
+      />
+      <MainContent displaying={displaying} />
     </>
   );
 }
