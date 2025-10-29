@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Nav.module.css';
 
-const Nav = ({ setDisplay }) => {
+const Nav = ({ setDisplay, displaying }) => {
   return (
     <nav>
       <ul className={styles.ul}>
@@ -11,7 +11,7 @@ const Nav = ({ setDisplay }) => {
             setDisplay('About');
           }}
         >
-          About
+          {displaying === 'About' ? <strong>about</strong> : 'about'}
         </li>
         <li
           className={styles.navLink}
@@ -19,7 +19,7 @@ const Nav = ({ setDisplay }) => {
             setDisplay('Schedule');
           }}
         >
-          Schedule
+          {displaying === 'Schedule' ? <strong>schedule</strong> : 'schedule'}
         </li>
         <li
           className={styles.navLink}
@@ -27,7 +27,7 @@ const Nav = ({ setDisplay }) => {
             setDisplay('Adopt');
           }}
         >
-          Adopt
+          {displaying === 'Adopt' ? <strong>adopt</strong> : 'adopt'}
         </li>
       </ul>
     </nav>

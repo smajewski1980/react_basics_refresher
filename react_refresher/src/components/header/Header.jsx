@@ -7,7 +7,10 @@ const Header = ({ setDisplay, displaying }) => {
     <>
       <header>
         <h1 className={styles.h1}>UNICORN RIDES</h1>
-        <Nav setDisplay={setDisplay} />
+        <Nav
+          setDisplay={setDisplay}
+          displaying={displaying}
+        />
         <h2 className={styles.h2}>{displaying}</h2>
       </header>
     </>
