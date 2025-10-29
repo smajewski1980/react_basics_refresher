@@ -10,7 +10,7 @@ function About() {
         src='../public/images/unicorn_pic.jpg'
       />
       <p className={styles.aboutText}>
-        Sign up now to go for a unicorn ride! <br />
+        Need a lyft? Sign up for uber-corn! <br />
         Our{' '}
         <strong>
           <em>friendly </em>

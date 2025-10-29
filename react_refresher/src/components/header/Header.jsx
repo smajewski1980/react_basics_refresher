@@ -6,7 +6,7 @@ const Header = ({ setDisplay, displaying }) => {
   return (
     <>
       <header>
-        <h1 className={styles.h1}>UNICORN RIDES</h1>
+        <h1 className={styles.h1}>UBER-CORN</h1>
         <Nav
           setDisplay={setDisplay}
           displaying={displaying}
