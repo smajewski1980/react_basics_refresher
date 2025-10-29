@@ -7,7 +7,7 @@ function About() {
     <>
       <ImageWrapper
         image='unicorn1'
-        src='../public/images/unicorn_pic.jpg'
+        src='/images/unicorn_pic.jpg'
       />
       <p className={styles.aboutText}>
         Need a lyft? Sign up for uber-corn! <br />
@@ -17,7 +17,7 @@ function About() {
         </strong>
         and oh so
         <strong>
-          <em> cudly</em>
+          <em> cuddly</em>
         </strong>{' '}
         unicorns are ready to wisk you away to a far off place full of fantasy
         and excitement.

@@ -2,9 +2,15 @@
   display: flex;
   outline: 2px solid rgb(216, 99, 255);
   justify-content: center;
-  margin-inline: 3.5rem;
+  margin-inline: 2.5rem;
   padding-block: 1rem;
   gap: 3rem;
   border-radius: 5px;
-  line-height: 3;
+  line-height: 2.5;
+}
+
+.times,
+.places {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

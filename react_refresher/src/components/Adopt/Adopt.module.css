@@ -1,0 +1,12 @@
+.imgCaption {
+  margin-block-start: 1.5rem;
+}
+
+.hr {
+  width: 150px;
+  height: 1px;
+  border: none;
+  margin-inline: auto;
+  margin-block: 1.25rem 1rem;
+  background: rgb(216, 99, 255);
+}

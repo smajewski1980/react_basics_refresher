@@ -15,7 +15,10 @@ function App() {
           displaying={displaying}
           setDisplay={setDisplay}
         />
-        <MainContent displaying={displaying} />
+        <MainContent
+          displaying={displaying}
+          setDisplaying={setDisplaying}
+        />
       </div>
     </>
   );

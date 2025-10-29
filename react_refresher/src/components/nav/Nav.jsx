@@ -11,7 +11,7 @@ const Nav = ({ setDisplay, displaying }) => {
             setDisplay('About');
           }}
         >
-          {displaying === 'About' ? <strong>about</strong> : 'about'}
+          {displaying === 'About' ? <strong>ABOUT</strong> : 'about'}
         </li>
         <li
           className={styles.navLink}
@@ -19,7 +19,7 @@ const Nav = ({ setDisplay, displaying }) => {
             setDisplay('Schedule');
           }}
         >
-          {displaying === 'Schedule' ? <strong>schedule</strong> : 'schedule'}
+          {displaying === 'Schedule' ? <strong>SCHEDULE</strong> : 'schedule'}
         </li>
         <li
           className={styles.navLink}
@@ -27,7 +27,7 @@ const Nav = ({ setDisplay, displaying }) => {
             setDisplay('Adopt');
           }}
         >
-          {displaying === 'Adopt' ? <strong>adopt</strong> : 'adopt'}
+          {displaying === 'Adopt' ? <strong>ADOPT</strong> : 'adopt'}
         </li>
       </ul>
     </nav>

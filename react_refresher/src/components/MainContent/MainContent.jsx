@@ -3,12 +3,12 @@ import Schedule from '../Schedule/Schedule';
 import Adopt from '../Adopt/Adopt';
 import About from '../About/About';
 
-function MainContent({ displaying }) {
+function MainContent({ displaying, setDisplaying }) {
   return (
     <>
       {displaying === 'About' && <About />}
       {displaying === 'Schedule' && <Schedule />}
-      {displaying === 'Adopt' && <Adopt />}
+      {displaying === 'Adopt' && <Adopt setDisplaying={setDisplaying} />}
     </>
   );
 }

@@ -1,8 +1,12 @@
 .ul {
-  display: flex;
+  /* display: flex;
+  gap: 1.5rem; */
+  display: grid;
   justify-content: center;
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
   margin-block-end: 1rem;
+  max-width: 275px;
+  margin-inline: auto;
 }
 
 .navLink {
