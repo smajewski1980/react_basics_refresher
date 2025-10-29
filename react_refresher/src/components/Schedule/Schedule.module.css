@@ -1,3 +1,10 @@
 .scheduleWrapper {
   display: flex;
+  outline: 2px solid rgb(216, 99, 255);
+  justify-content: center;
+  margin-inline: 3.5rem;
+  padding-block: 1rem;
+  gap: 3rem;
+  border-radius: 5px;
+  line-height: 3;
 }
